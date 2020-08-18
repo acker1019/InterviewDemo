@@ -2,4 +2,4 @@
 
 This application is designed by the core-GUI pattern. It figures out all the 92 possible solutions of the eight queen puzzle. Furthermore, the 12 essential solutions are extracted from the 92 solutions to avoid mirror and rotation duplication.
 
-![Eight Queen Preview](https://drive.google.com/uc?export=view&id=1Ye7InkhLwbtutIwBpMmsxH1t1io8rfE4 "Eight Queen Preview")
+![Eight Queen Preview](EightQueenPreview.gif "Eight Queen Preview")
