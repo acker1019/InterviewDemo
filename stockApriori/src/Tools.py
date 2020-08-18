@@ -1,3 +1,5 @@
+# Author: Ackerley Cheng
+# file encoding: utf-8
 
 def sameList(listA, listB):
     return (len(listA) == len(listB)) and (set(listA) == set(listB))

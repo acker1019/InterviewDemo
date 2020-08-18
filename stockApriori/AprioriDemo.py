@@ -1,3 +1,5 @@
+# Author: Ackerley Cheng
+# file encoding: utf-8
 
 import csv
 import io
@@ -5,9 +7,9 @@ import os
 import sys
 from pathlib import Path
 
-import Tools
-from EventFactory import EventFactory
-from StockSeriesApriori import StockSeriesApriori
+from src import Tools
+from src.EventFactory import EventFactory
+from src.StockSeriesApriori import StockSeriesApriori
 
 # envir
 
