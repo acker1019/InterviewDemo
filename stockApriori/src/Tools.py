@@ -22,6 +22,7 @@ def isSubSet(listA, listB):
 
 # dump rule with beautified format
 def beautifiedRuleSet(ruleSet):
+    ruleSet = list(sorted(ruleSet, key=lambda rule: rule.lift, reverse=True))
     if len(ruleSet) <= 0:
         out = 'found nothing.'
     else:

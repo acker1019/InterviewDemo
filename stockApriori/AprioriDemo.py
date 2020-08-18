@@ -21,8 +21,10 @@ PJDIR = Path(os.path.dirname(__file__))
 
 # script
 
-dirPath = PJDIR / 'data/stocksComSax/'
-files = os.listdir(dirPath)
+outputDir = PJDIR / 'output/'
+
+inputDir = PJDIR / 'data/stocksComSax/'
+files = os.listdir(inputDir)
 
 # preprocessing
 
@@ -33,7 +35,7 @@ count = 31
 apriori = StockSeriesApriori(0.03, 0.6, 5 * count, 5, False)
 # grasp data from directory: './stocksComSax/'
 for file in files:
-    with open(dirPath / file) as saxFile:
+    with open(inputDir / file) as saxFile:
         saxSeries = list(csv.reader(saxFile))
 
     saxSeries = saxSeries[0]
@@ -63,7 +65,8 @@ assocRules = apriori.analyze(eventSeries)
 outTxt = apriori.getMessage() + '\n' + Tools.beautifiedRuleSet(assocRules)
 print(outTxt)
 
-os.makedirs("output/")
+if not os.path.exists(outputDir):
+    os.makedirs(outputDir)
 
-with open(PJDIR / 'output/result.txt', 'w') as rFile:
+with open(outputDir / 'result.txt', 'w') as rFile:
     rFile.write(outTxt)
