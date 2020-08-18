@@ -74,9 +74,8 @@ it means:
 If 1326台化 rises 1 price unit at t2 and 1101台泥 rises also 1 price unit at t3,
 1101台泥 will fall 1 unit at t4 and 2382廣達 will rise 1 unit at t5.
 ```
-,
 
-and the credibility of this rule:
+,and the credibility of this rule:
 - support: 0.033
 - confidence: 1.0
 - lift: 30.011
