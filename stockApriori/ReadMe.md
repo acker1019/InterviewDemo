@@ -23,7 +23,7 @@ one of the potential association rule could be:
 2. Discretized N series by SAX.
 3. Transform the concept of "Value Series" into "Rise/Fall Event Series".
 4. Scan the Series by a sliding window to extract event frames.
-5. Execute Apriori with the event frames to obtain association rules.
+5. Execute the Apriori with the event frames to obtain association rules.
 
 
 ## Usage
@@ -36,7 +36,7 @@ one of the potential association rule could be:
 
 ## Result and Explanation
 
-in "example-output/result.txt":
+in "example-output/31stocks-result.txt":
 
 ```
 inputed parameters:
@@ -70,7 +70,10 @@ For the first rule:
 ,
 
 it means:  
-`If 1326台化 rises 1 price unit at t2 and 1101台泥 rises also 1 price unit at t3, then 1101台泥 will fall 1 unit at t4 and 2382廣達 will rise at t5`
+```
+If 1326台化 rises 1 price unit at t2 and 1101台泥 rises also 1 price unit at t3,
+1101台泥 will fall 1 unit at t4 and 2382廣達 will rise at t5
+```
 ,
 
 and the credibility of this rule:
