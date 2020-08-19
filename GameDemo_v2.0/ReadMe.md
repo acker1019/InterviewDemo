@@ -6,8 +6,8 @@ The codes show how to build a simple game with basic java techniques that includ
 - A game loop
 - Role moving by mouse-click and keyboard
 - Sounds/music play
-- Item Vibration
-- Simple Object collision detection
+- Item vibration
+- Simple object collision detection
 
 ## Usage (Eclipse)
 
