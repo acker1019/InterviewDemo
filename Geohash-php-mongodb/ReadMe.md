@@ -15,7 +15,7 @@ the brown area can be located, as the picture below.
 I know MongoDB supports the Geohash currently, however, it didn't when our project needed it.
 
 
-# Applying the Geohash in our project
+# Applying the Geohash to our project
 
 The vertical length of Taiwan is 385,000 m. With 10 cuts (385,000 x 2<sup>-10</sup>), the areas can be cut down into squares with a length of 376 m. It is a reasonable length for food order matching.
 
