@@ -21,7 +21,7 @@
 
 	//請載入 FindNearest_Interface.php
 	//其他檔案請放在與之相同目錄之下
-	require_once "FindNearest_Interface.php";
+	require_once "findNearest/FindNearest_Interface.php";
 
 	//建立interface物件
 	//需給予用作中mongodb的監聽位址
