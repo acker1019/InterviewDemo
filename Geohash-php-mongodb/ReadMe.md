@@ -12,10 +12,10 @@ the brown area can be located, as the picture below.
 
 ![Game Demo Preview](readme-img/geo-grid.png "Game Demo Preview")
 
-I know MongoDB supports the geohash currently, however, it didn't when our project needed it.
+I know MongoDB supports the Geohash currently, however, it didn't when our project needed it.
 
 
-# Applying geohash in our project
+# Applying the Geohash in our project
 
 The vertical length of Taiwan is 385,000 m. With 10 cuts (385,000 x 2<sup>-10</sup>), the areas can be cut down into squares with a length of 376 m. It is a reasonable length for food order matching.
 
@@ -23,4 +23,12 @@ The vertical length of Taiwan is 385,000 m. With 10 cuts (385,000 x 2<sup>-10</s
 
 
 # Why PHP
-PHP was chosen because our project server was built with nginx server and php-fpm.
+PHP was chosen because our project server was built with the Nginx server and php-fpm.
+
+
+# Why MongoDB
+In this case, the unknown number of couriers are stored in their own hash grids and their locations are updated rapidly. This situation fits MongoDB's tree-structured data system.
+
+In the case of SQL's table-like data system, A hash code column can be built for "SELECT". However, when executing the "SELECT", the searching is performed "iteratively". It is less efficient than the tree-structured data system.
+
+In other words, "packs of couriers" are obtained in MongoDB, on the other hand, "couriers belonging to certain grid" are extracted from a huge table.
