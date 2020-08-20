@@ -3,7 +3,7 @@
 This repository is a PHP module I built for my final project of the bachelor's degree. Our team was implementing a food delivery matching platform, which is like the FoodPandas, UberEats nowadays. The purpose of this module is to find the nearest courier for a given shop.
 
 More details are in the paragraph extracted from our document:  
-[第三節 Geohash演算法於本專案之探討與應用.pdf](readme-resource/第三節 Geohash演算法於本專案之探討與應用.pdf "Game Demo Preview")
+[第三節 Geohash演算法於本專案之探討與應用.pdf](readme-resource/第三節 Geohash演算法於本專案之探討與應用.pdf)
 
 # About Geohash
 Geohashing is an application of the quadtree for encoding geographic coordinate. For a given hash code, every two digits stand for a subtree of the parent quadtree.
