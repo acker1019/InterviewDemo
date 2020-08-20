@@ -5,7 +5,7 @@ A collection for interview.
 
 Solving Eight Queen Puzzle by Backtracking Dynamic Programming with a GUI.
 
-![Eight Queen Preview](EightQUeenWithGUI/readme-img/EightQueenPreview.gif "Eight Queen Preview")
+![Eight Queen Preview](EightQueenWithGUI/readme-img/EightQueenPreview.gif "Eight Queen Preview")
 
 
 ## GameDemo_v2.0
