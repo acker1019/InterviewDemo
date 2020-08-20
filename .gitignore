@@ -1,15 +1,15 @@
 # Experimental features
-/stockApriori/_exp/
+/StockApriori/_exp/
 
 # Project Notes
-/stockApriori/notes/
+/StockApriori/notes/
 
 # Project Outputs
-/stockApriori/output/
+/StockApriori/output/
 
 # Project Resources
 /GameDemo_v2.0/resources/
-/stockApriori/data/
+/StockApriori/data/
 
 # MacOS
 .DS_Store
