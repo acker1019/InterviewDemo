@@ -25,7 +25,8 @@
 
 	//建立interface物件
 	//需給予用作中mongodb的監聽位址
-	$FN_interface = new FindNearest_Interface("mongodb://root:123456@127.0.0.1:27017");
+	mongo_link = "mongodb://root:123456@127.0.0.1:27017"
+	$FN_interface = new FindNearest_Interface(mongo_link);
 
 	//1. html格式 追蹤以自己為中心的9宮格內，送貨員節點的分布狀況
 	//2. 紀錄function運算時間(usec)，可透過getLastTimeLog()取得，false則不紀錄

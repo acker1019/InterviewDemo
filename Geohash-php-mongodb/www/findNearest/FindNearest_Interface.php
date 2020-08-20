@@ -71,7 +71,7 @@
 				default:
 					return null;
 			}//end condi.
-			
+
 			$candi_points = $this->Geohash->getCandiPoints($x, $y);
 			$result = $this->getNearestPointFromCandi(
 						$candi_points, $x, $y, $filter, $limit);
