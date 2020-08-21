@@ -33,4 +33,4 @@ In this case, the unknown number of couriers are stored in their own hash grids 
 
 In the case of SQL's table-like data system, A hash code column can be built for "SELECT". However, when executing the "SELECT", the searching is performed "iteratively". It is less efficient than the tree-structured data system.
 
-In other words, "couriers in the same grids" are obtained as bags in MongoDB, on the other hand, "couriers belonging to certain grid" are extracted from a huge table.
+In other words, "couriers in the same grids" are obtained as bags in MongoDB, on the other hand, "couriers belonging to certain grid" are extracted from a huge table in SQL.
